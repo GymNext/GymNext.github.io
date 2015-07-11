@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #333 url(/bg.jpg) no-repeat center center fixed;
+  background: #333 url(/images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -162,6 +162,12 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 900px;
   }
+}
+
+.device {
+  background: url(/images/iphone.png) no-repeat center center;
+  height: 1280px;
+  width: 600px;
 }
