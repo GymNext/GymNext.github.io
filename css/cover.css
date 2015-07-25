@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #333 url(/images/bg.jpg) no-repeat center center fixed;
+  background: #333 url(/images/bg2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,8 +67,8 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 .masthead-nav > li {
@@ -177,4 +177,12 @@ body {
 
 .carousel-indicators {
   bottom: -30px;
+}
+
+.main {
+  background-color: rgba(0,0,0,.7);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
